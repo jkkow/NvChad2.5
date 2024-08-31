@@ -10,7 +10,7 @@ git clone --depth 1 https://github.com/jkkow/NvChad2.5.git $ENV:USERPROFILE\AppD
 
 for ssh connection to git, run
 ```
-git clone --depth 1 https://github.com/jkkow/NvChad2.5.git $ENV:USERPROFILE\AppData\Local\nvim && nvim
+git clone --depth 1 git@github.com:jkkow/NvChad2.5.git $ENV:USERPROFILE\AppData\Local\nvim && nvim
 ```
 ## Package Install
 
