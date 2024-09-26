@@ -18,8 +18,8 @@ map("n", "<leader>tr", function()
 end, { desc = "Toggle transparency" })
 
 -- run script
-map("n", "<leader><leader>l", "<cmd> source %<cr>", { desc = "Run current lua script" })
-map("n", "<leader><leader>p", "<cmd> !python3 % <cr>", { desc = "Run current python script" })
+map("n", "<leader>l", "<cmd> source %<cr>", { desc = "Run current lua script" })
+map("n", "<leader>p", "<cmd> !python3 % <cr>", { desc = "Run current python script" })
 
 -- Select all
 map("n", "<C-a>", "gg<S-v>G", { desc = "Select all" })
